@@ -1,0 +1,30 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('https://res.cloudinary.com/cryptographicfool/image/upload/c_scale,w_1920/v1560602662/fcc_survey/audio-black-and-white-black-and-white-6966_kfkala.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+#title {
+  color: #394053;
+}
+
+#description {
+  font-size: 20px;
+  color: #394053 !important;
+}
+
+#formcontainer {
+  background-color: rgba(124,174,122,0.4);
+  background-size: cover;
+    color: #192333;
+}
+
+.btn-primary {
+  background-color: #394053 !important;
+}
+
+.btn-primary:hover {
+  background-color: #192333 !important;
+}

@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Listening Habits</title>
+  </head>
+
+  <body>
+    <div class="container" style="height: 30px;"></div>
+    <h1 id="title" class="text-center"><strong>Listening Habits</strong></h1>
+    <br>
+    <div id="formcontainer" class="container border-0 rounded-lg">
+      <br>
+      <hr>
+      <p class="text-center" id="description"><lead>Tell us about your music listening habits by filling out the form below.</lead></p>
+      <hr>
+      <br>
+      <div class="container-fluid" id="formcontainer2">
+        <form id="survey-form">
+
+          <div class="form-group row">
+            <div class="col-1"></div>
+            <label id="name-label" class="col-3 text-right col-form-label">Name:</label>
+            <input id="name" type="text" class="form-control col-7" placeholder="Add Name">
+            <div class="col-1"></div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-1"></div>
+            <label id="email-label" class="col-3 text-right col-form-label">Email:</label>
+            <input id="email" type="email" class="form-control col-7" placeholder="Add Email">
+            <div class="col-1"></div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-1"></div>
+            <label id="number-label" class="col-3 text-right col-form-label">Age:</label>
+            <input id="number" type="number" class="form-control col-7 text-muted" min="18" max="32" placeholder="Only for people aged between 18 and 32">
+            <div class="col-1"></div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-1"></div>
+            <label class="col-3 text-right col-form-label">Gender:</label>
+            <select id="dropdown" class="form-control col-7">
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+              <option value="other">Other</option>
+            </select>
+            <div class="col-1"></div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-1"></div>
+            <label id="number-label" class="col-3 text-right">Do you make music?</label>
+            <div class=" col-7 col-form-label mt-0 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0 c">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Yes, as a professional.
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                  Sometimes, as an ameteur.
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                <label class="form-check-label" for="exampleRadios3">
+                  No, I do not make music.
+                </label>
+              </div>
+            </div>
+            <div class="col-1"></div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-1"></div>
+            <label id="number-label" class="col-3 text-right">Where do you get your music?</label>
+            <div class=" col-7 col-form-label mt-0 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0 c">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Paid streaming.
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                <label class="form-check-label" for="defaultCheck2">
+                  Free streaming.
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                <label class="form-check-label" for="defaultCheck3">
+                  Digital purchase.
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                <label class="form-check-label" for="defaultCheck4">
+                  Physical media purchase.
+                </label>
+              </div>
+            </div>
+            <div class="col-1"></div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-1"></div>
+            <label class="col-3 text-right col-form-label">What do you use to listen?</label>
+            <select id="dropdown" class="form-control col-7">
+              <option value="hps">Headphones</option>
+              <option value="pls">Phone/Laptop Speakers</option>
+              <option value="hfs">HiFi Speakers</option>
+              <option value="bts">Bluetooth Speakers</option>
+            </select>
+            <div class="col-1"></div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-1"></div>
+            <label class="col-3 text-right col-form-label">Tell us more:</label>
+            <textarea class="form-control col-7" placeholder="Write about the artists and genres you enjoy listening the most."></textarea>
+            <div class="col-1"></div>
+          </div>
+
+          <br>
+
+          <div class="form-group row">
+            <div class="col-1"></div>
+            <button id="submit" type="submit" class="btn btn-primary col-10 border-0 rounded-lg">Submit</button>
+            <div class="col-1"></div>
+          </div>
+
+          <br>
+
+        </form>
+      </div>
+    </div>
+    <div class="container" style="height: 180px;"></div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
